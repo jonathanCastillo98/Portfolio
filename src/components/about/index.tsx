@@ -17,7 +17,7 @@ const About = () => {
                     <Info />
 
                     <p className="about__description">
-                        I consider myself a passionate and competitive person who is always eager to learn new personal or professional things. Challenges for me are the best way to prove to myself that I can do everything I can imagine simply by learning from failures and achievements, that's why I challenge myself every time I can. <br /> <br />
+                        I consider myself a passionate and competitive person who is always eager to learn new personal or professional things. Challenges for me are the best way to prove to myself that I can do everything I can imagine simply by learning from failures and achievements. <br /> <br />
 
                         {/* I can perform as a frontend, backend, or full-stack developer applying best practices and clean coding using the technologies I like the most as React js and Node js working with both Es6 standard or older versions, Express js, Websockets, Typescript, and Material UI. I can adapt myself to work as required. <br /> <br /> */}
 

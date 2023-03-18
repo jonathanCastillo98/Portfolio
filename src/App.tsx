@@ -4,6 +4,7 @@ import About from './components/about'
 
 import Header from './components/header'
 import Home from './components/home'
+import Services from './components/services'
 import Skills from './components/skills'
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       <main className="main">
         <Home />
         <About />
-        {/* <Skills /> */}
+        <Skills />
+        <Services />
       </main>
     </>
   )
