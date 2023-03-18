@@ -1,3 +1,8 @@
+#about {
+    width: 100%;
+    height: calc(100vh - var(--header-height));
+}
+
 .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
