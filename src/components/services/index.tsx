@@ -5,7 +5,7 @@ const Services = () => {
 
     const [modalState, setModalState] = useState(0);
 
-    const toggleTab = (i) => {
+    const toggleTab = (i: number) => {
         setModalState(i)
     }
 
