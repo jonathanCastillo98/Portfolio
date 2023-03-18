@@ -137,6 +137,7 @@
     .home__subtitle::before {
         padding-left: 42px;
         top: 0.8rem;
+        width: 10px;
     }
 
     .home__description {
