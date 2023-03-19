@@ -7,6 +7,7 @@ import Footer from './components/footer'
 import Header from './components/header'
 import Home from './components/home'
 import Qualification from './components/qualification'
+import Scrollup from './components/scrollup'
 import Services from './components/services'
 import Skills from './components/skills'
 import Testimonials from './components/testimonials'
@@ -25,8 +26,10 @@ function App() {
         <Qualification />
         <Testimonials />
         <Contact />
-        <Footer />
       </main>
+
+      <Footer />
+      <Scrollup />
     </>
   )
 }
