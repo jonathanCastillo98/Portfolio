@@ -7,6 +7,7 @@ import Home from './components/home'
 import Qualification from './components/qualification'
 import Services from './components/services'
 import Skills from './components/skills'
+import Testimonials from './components/testimonials'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Skills />
         <Services />
         <Qualification />
+        <Testimonials />
       </main>
     </>
   )
