@@ -2,6 +2,7 @@
 import './App.css'
 import About from './components/about'
 import Contact from './components/contact'
+import Footer from './components/footer'
 
 import Header from './components/header'
 import Home from './components/home'
@@ -24,6 +25,7 @@ function App() {
         <Qualification />
         <Testimonials />
         <Contact />
+        <Footer />
       </main>
     </>
   )
