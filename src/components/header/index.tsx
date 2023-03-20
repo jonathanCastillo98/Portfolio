@@ -3,6 +3,18 @@ import './header.css'
 
 const Header = () => {
 
+    window.addEventListener("scroll", () => {
+        // Change header bg
+        const header = document.querySelector(".header");
+        if (window.scrollY >= 80) {
+            header?.classList.add("scroll-header")
+        }
+        else {
+            header?.classList.remove("scroll-header")
+        }
+    }
+    )
+
     const [displayMenu, setDisplayMenu] = useState(false);
 
     const handleOnOpenMenu = () => {

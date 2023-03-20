@@ -6,6 +6,7 @@ import Footer from './components/footer'
 
 import Header from './components/header'
 import Home from './components/home'
+import Projects from './components/projects'
 import Qualification from './components/qualification'
 import Scrollup from './components/scrollup'
 import Services from './components/services'
@@ -24,6 +25,7 @@ function App() {
         <Skills />
         <Services />
         <Qualification />
+        <Projects />
         <Testimonials />
         <Contact />
       </main>
