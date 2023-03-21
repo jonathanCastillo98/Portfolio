@@ -21,7 +21,8 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
-    padding: 1rem 1.75rem;
+    padding: 1rem 1.25rem;
+    line-height: 1rem;
 }
 
 .about__icon {
@@ -37,6 +38,7 @@
 
 .about__subtitle {
     font-size: var(--tiny-font-size);
+    line-height: 0.10px;
 }
 
 .about__description {
