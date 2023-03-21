@@ -9,6 +9,13 @@
     align-items: center;
 }
 
+.contact-scroll-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .home__social {
     display: grid;
     grid-template-columns: max-content;
@@ -85,8 +92,9 @@
     }
 }
 
+
 .home__scroll {
-    margin-left: 9.25rem;
+    user-select: none;
 }
 
 .wheel {

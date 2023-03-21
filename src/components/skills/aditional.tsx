@@ -11,7 +11,7 @@ const Aditional = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">PostgreSQL</h3>
+                            <h3 className="skills__name">GIT</h3>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
@@ -24,12 +24,11 @@ const Aditional = () => {
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
-
                     <div className="skills__data">
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">Git</h3>
+                            <h3 className="skills__name">Postman</h3>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
@@ -39,8 +38,8 @@ const Aditional = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name"></h3>
-                            <span className="skills__level"></span>
+                            <h3 className="skills__name">WebSockets</h3>
+                            <span className="skills__level">Basic</span>
                         </div>
                     </div>
 
@@ -48,8 +47,8 @@ const Aditional = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name"></h3>
-                            <span className="skills__level"></span>
+                            <h3 className="skills__name">Typescript</h3>
+                            <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
 
@@ -57,8 +56,8 @@ const Aditional = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name"></h3>
-                            <span className="skills__level"></span>
+                            <h3 className="skills__name">JSON</h3>
+                            <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
                 </div>
