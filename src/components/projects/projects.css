@@ -210,11 +210,6 @@
         padding-left: 1rem;
     }
 
-    /* .work__container,
-    .work__modal-work-content {
-        grid-template-columns: 1fr;
-    } */
-
     .work__modal-content {
         height: 680px;
         overflow-y: scroll;

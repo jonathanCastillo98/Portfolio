@@ -1,6 +1,7 @@
 
 import './App.css'
 import About from './components/about'
+import Certifications from './components/certifications'
 import Contact from './components/contact'
 import Footer from './components/footer'
 
@@ -25,6 +26,7 @@ function App() {
         <Skills />
         <Services />
         <Qualification />
+        <Certifications />
         <Projects />
         <Testimonials />
         <Contact />
