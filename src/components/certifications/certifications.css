@@ -13,6 +13,7 @@
     padding: 1.25rem;
     border-radius: 1rem;
     max-width: 550px;
+    max-height: 350px;
 }
 
 .cert__img {
@@ -38,19 +39,20 @@
 
 @media screen and (max-width: 576px) {
     .certifications__container {
-        grid-template-columns: max-content;
-        gap: 13rem;
-        margin-top: 8rem;
+        grid-template-columns: 1fr;
+        /* gap: 13rem; */
+        margin-top: 2rem;
     }
 
     .cert__box {
-        transform: rotateZ(90deg);
-        margin-bottom: 3rem;
+        /* transform: rotateZ(90deg); */
+        margin-bottom: 1rem;
     }
 
 
 
     .cert__img {
+        height: 250px;
         margin-bottom: 0;
     }
 }
@@ -62,6 +64,7 @@
     }
 
     .cert__img {
+        height: 150px;
         margin-bottom: 0;
     }
 }
