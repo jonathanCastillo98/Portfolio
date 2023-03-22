@@ -51,7 +51,7 @@ export const projectsData = [
 
 
         ],
-        isDemo: true,
+        isDemo: false,
         linkDemo: "#",
         techIcons: [
             {
@@ -74,7 +74,8 @@ export const projectsData = [
                 id: 5,
                 icon: socketioI
             },
-        ]
+        ],
+        descriptionRole: "The project was to develop a clone of the Rappi App. The app was developed using microservices-based architecture and Agile methodology, where I was part of the POS team which had to make the Frontend and Backend to interact with the database and users."
     },
     {
         id: 2,
@@ -82,9 +83,10 @@ export const projectsData = [
         title: "Health Management System",
         category: "WebDev",
         descriptions: [],
-        isDemo: true,
+        isDemo: false,
         linkDemo: "#",
-        techIcons: []
+        techIcons: [],
+        descriptionRole: ""
     },
     {
         id: 3,
@@ -92,9 +94,10 @@ export const projectsData = [
         title: "In-process",
         category: "WebDev",
         descriptions: [],
-        isDemo: false,
+        isDemo: true,
         linkDemo: "#",
-        techIcons: []
+        techIcons: [],
+        descriptionRole: ""
     },
     {
         id: 4,
@@ -102,9 +105,10 @@ export const projectsData = [
         title: "In-process",
         category: "WebDev",
         descriptions: [],
-        isDemo: false,
+        isDemo: true,
         linkDemo: "#",
-        techIcons: []
+        techIcons: [],
+        descriptionRole: ""
     },
     {
         id: 5,
@@ -112,9 +116,10 @@ export const projectsData = [
         title: "In-process",
         category: "WebDev",
         descriptions: [],
-        isDemo: false,
+        isDemo: true,
         linkDemo: "#",
-        techIcons: []
+        techIcons: [],
+        descriptionRole: ""
     },
     {
         id: 6,
@@ -122,8 +127,9 @@ export const projectsData = [
         title: "In-process",
         category: "WebDev",
         descriptions: [],
-        isDemo: false,
+        isDemo: true,
         linkDemo: "#",
-        techIcons: []
+        techIcons: [],
+        descriptionRole: ""
     },
 ]

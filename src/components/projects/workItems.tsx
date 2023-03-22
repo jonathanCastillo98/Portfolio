@@ -9,7 +9,8 @@ type itemT = {
     descriptions: any[]
     isDemo: boolean;
     linkDemo: string;
-    techIcons: any[]
+    techIcons: any[];
+    descriptionRole: string;
 }
 
 type WorkItemsT = {
@@ -56,7 +57,7 @@ const WorkItems = ({ item }: WorkItemsT) => {
                     <div className="work__modal-content">
                         <i className="uil uil-times work__modal-close" onClick={handleOnModalClose}></i>
                         <h3 className="work__modal-title">{item.title}</h3>
-                        <p className="work__modal-description">description</p>
+                        <p className="work__modal-description">{item.descriptionRole}</p>
                         <div className="work__modal-work-content">
                             <ul className="work__modal-work grid">
                                 {descriptionsList}
