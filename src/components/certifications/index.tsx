@@ -1,8 +1,8 @@
 import React from 'react'
 import './certifications.css'
 
-import salesforceCert from '../../assets/SalesforceIMG.png'
-import itkCer from '../../assets/ITKIMG.png'
+import salesforceCert from '../../assets/Certifications/SalesforceIMG.png'
+import itkCer from '../../assets/Certifications/ITKIMG.png'
 
 const Certifications = () => {
     return (

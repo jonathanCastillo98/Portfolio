@@ -1,16 +1,18 @@
 // IMAGES
-import Work1 from '../../assets/Work1.jpg';
-import Work2 from '../../assets/Work2.jpg';
-import Work3 from '../../assets/Work3.jpg';
-import Work4 from '../../assets/Work4.jpg';
-import Work5 from '../../assets/Work5.jpg';
+import Work1 from '../../assets/Portfolio/rappiClone.jpg';
+import Work2 from '../../assets/Portfolio/Work2.jpg';
+import Work3 from '../../assets/Portfolio/Work3.jpg';
+import Work4 from '../../assets/Portfolio/Work4.jpg';
+import Work5 from '../../assets/Portfolio/Work5.jpg';
 
 // ICONS
-import expressI from "../../assets/icons8-express-js.svg"
-import nodeI from "../../assets/icons8-node-js.svg"
-import reactI from "../../assets/icons8-react-native.svg"
-import muiI from "../../assets/icons8-material-ui.svg"
-import socketioI from "../../assets/socketio.svg"
+import expressI from "../../assets/PortfolioIcons/expressJs.svg"
+import nodeI from "../../assets/PortfolioIcons/nodeJs.svg"
+import reactI from "../../assets/PortfolioIcons/react.svg"
+import muiI from "../../assets/PortfolioIcons/materialUI.svg"
+import socketioI from "../../assets/PortfolioIcons/socketIO.svg"
+import postgreSQLI from "../../assets/PortfolioIcons/postgreSQL.svg"
+import sequelizeI from "../../assets/PortfolioIcons/sequelize.svg"
 
 
 export const projectsData = [
@@ -22,7 +24,7 @@ export const projectsData = [
         descriptions: [
             {
                 id: 1,
-                description: "Work with Agile methodologies, GIT and Microservices architecture in which I was part of the Ponit of Sales team"
+                description: "Work with Agile methodologies, GIT and Microservices-based architecture in which I was part of the Point of Sales team"
             },
             {
                 id: 2,
@@ -30,7 +32,7 @@ export const projectsData = [
             },
             {
                 id: 3,
-                description: "Use Node js and Express js for bulding a restful API, and socket.io to manage the full-duplex connection between clients and the server"
+                description: "Use Node js and Express js for building a restful API, and socket.io to manage the full-duplex connection between clients and the server"
             },
             {
                 id: 4,
@@ -38,7 +40,7 @@ export const projectsData = [
             },
             {
                 id: 5,
-                description: "Create user authentication and authorizarion by using Firebase Auth and own middlewares through tokens"
+                description: "Create user authentication and authorization middlewares using Firebase Auth through tokens"
             },
             {
                 id: 6,
@@ -73,6 +75,14 @@ export const projectsData = [
             {
                 id: 5,
                 icon: socketioI
+            },
+            {
+                id: 6,
+                icon: postgreSQLI
+            },
+            {
+                id: 7,
+                icon: sequelizeI
             },
         ],
         descriptionRole: "The project was to develop a clone of the Rappi App. The app was developed using microservices-based architecture and Agile methodology, where I was part of the POS team which had to make the Frontend and Backend to interact with the database and users."

@@ -25,7 +25,7 @@ const Testimonials = () => {
                 modules={[Pagination, Autoplay]}
                 loop={true}
                 autoplay={{
-                    delay: 3000,
+                    delay: 10000,
                     disableOnInteraction: false
                 }}
                 grabCursor={true}
@@ -47,12 +47,13 @@ const Testimonials = () => {
                     },
                 }}
             >
-                {Data.map(({ id, image, title, description }) => {
+                {Data.map(({ id, image, title, description, position }) => {
                     return (
                         <SwiperSlide className="testimonial__card" key={id}>
                             <img src={image} alt="" className='testimonial__img' />
 
                             <h3 className="testimonial__name">{title}</h3>
+                            <p className="testimonial__position">{position}</p>
                             <p className="testimonial__description">{description}</p>
                         </SwiperSlide>
                     )

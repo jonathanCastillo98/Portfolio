@@ -51,11 +51,25 @@ const Qualification = () => {
                             </div>
 
                             <div>
+                                <h3 className="qualification__title">Upper Intermediate - CERF B2</h3>
+                                <span className="qualification__subtitle">iTEP</span>
+                                <div className="qualification__calender">
+                                    <i className="uil uil-calendar-alt">2019</i>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="qualification__data">
+                            <div>
                                 <h3 className="qualification__title">Computational Robotics Engineering</h3>
                                 <span className="qualification__subtitle">Universidad Politécnica de Yucatán</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt">2016 - 2020</i>
                                 </div>
+                            </div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
                             </div>
                         </div>
                     </div>
@@ -63,7 +77,7 @@ const Qualification = () => {
                     <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Javascript Developer</h3>
+                                <h3 className="qualification__title">JavaScript Associate Software Engineer</h3>
                                 <span className="qualification__subtitle">Instituto Tecnológico Ksquare</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt">2022 - 2023</i>

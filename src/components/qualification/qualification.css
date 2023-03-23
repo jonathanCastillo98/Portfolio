@@ -28,6 +28,7 @@
 .qualification__active {
     color: var(--title-color-dark);
     border-bottom: 2px solid var(--text-color);
+    transform: translateY(-0.25rem);
 }
 
 .qualification__sections {

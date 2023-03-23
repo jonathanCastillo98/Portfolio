@@ -3,7 +3,6 @@ import './home.css'
 
 import Social from './social'
 import Data from './data'
-import Scrolldown from './scrolldown'
 
 const Home = () => {
     return (
