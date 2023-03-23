@@ -20,7 +20,7 @@ const About = () => {
                         B.Eng. in Computational Robotics with 1 year of experience developing web apps mostly with Javascript (React, NodeJS, and Express). I am passionate and competitive, always eager to learn new things from challenges, self-learning, or being part of a team. <br /> <br />
                     </p>
 
-                    <a download="" href={CV} className="button button--flex">Download CV
+                    <a download="" href={CV} className="button button--flex">Download Resume
                         <svg
                             className="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
