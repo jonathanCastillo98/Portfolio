@@ -97,49 +97,109 @@ export const projectsData = [
         image: hms,
         title: "Health Management System",
         category: "WebDev",
-        descriptions: [],
+        descriptions: [
+            {
+                id: 1,
+                description: "A role-based app developed under Agile methodologies and GIT."
+            },
+            {
+                id: 2,
+                description: "Use React and MUI for building a responsive SPA with reusable and scalable components that consumed my own API."
+            },
+            {
+                id: 3,
+                description: "Use Node js and Express js for building a restful API."
+            },
+            {
+                id: 4,
+                description: "Use PostgreSQL as database and sequelize as ORM to store and manage the whole information."
+            },
+            {
+                id: 5,
+                description: "Create authentication and authorization middlewares using Firebase Auth through tokens"
+            },
+            {
+                id: 6,
+                description: "Create routing using react-router-dom and authentication using the context hook and tokens"
+            },
+            {
+                id: 7,
+                description: "Implement clean architecture and best practices for clean, reusable and scalable coding"
+            },
+        ],
         isDemo: false,
         linkDemo: "#",
-        techIcons: [],
+        techIcons: [{
+            id: 1,
+            icon: reactI
+        },
+        {
+            id: 2,
+            icon: nodeI
+        },
+        {
+            id: 3,
+            icon: expressI
+        },
+        {
+            id: 4,
+            icon: muiI
+        },
+        {
+            id: 5,
+            icon: socketioI
+        },
+        {
+            id: 6,
+            icon: postgreSQLI
+        },
+        {
+            id: 7,
+            icon: sequelizeI
+        },
+        {
+            id: 8,
+            icon: typescriptI
+        },],
     },
-    {
-        id: 3,
-        image: Work3,
-        title: "PENDING",
-        category: "WebDev",
-        descriptions: [],
-        isDemo: false,
-        linkDemo: "#",
-        techIcons: [],
-    },
-    {
-        id: 4,
-        image: Work4,
-        title: "PENDING",
-        category: "WebDev",
-        descriptions: [],
-        isDemo: false,
-        linkDemo: "#",
-        techIcons: [],
-    },
-    {
-        id: 5,
-        image: Work5,
-        title: "PENDING",
-        category: "WebDev",
-        descriptions: [],
-        isDemo: false,
-        linkDemo: "#",
-        techIcons: [],
-    },
-    {
-        id: 6,
-        image: Work5,
-        title: "PENDING",
-        category: "WebDev",
-        descriptions: [],
-        isDemo: false,
-        linkDemo: "#",
-        techIcons: [],
-    },
+    // {
+    //     id: 3,
+    //     image: Work3,
+    //     title: "PENDING",
+    //     category: "WebDev",
+    //     descriptions: [],
+    //     isDemo: false,
+    //     linkDemo: "#",
+    //     techIcons: [],
+    // },
+    // {
+    //     id: 4,
+    //     image: Work4,
+    //     title: "PENDING",
+    //     category: "WebDev",
+    //     descriptions: [],
+    //     isDemo: false,
+    //     linkDemo: "#",
+    //     techIcons: [],
+    // },
+    // {
+    //     id: 5,
+    //     image: Work5,
+    //     title: "PENDING",
+    //     category: "WebDev",
+    //     descriptions: [],
+    //     isDemo: false,
+    //     linkDemo: "#",
+    //     techIcons: [],
+    // },
+    // {
+    //     id: 6,
+    //     image: Work5,
+    //     title: "PENDING",
+    //     category: "WebDev",
+    //     descriptions: [],
+    //     isDemo: false,
+    //     linkDemo: "#",
+    //     techIcons: [],
+    // },
 ]
