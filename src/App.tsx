@@ -17,7 +17,7 @@ import Testimonials from './components/testimonials'
 function App() {
 
   return (
-    <>
+    < >
       <Header />
 
       <main className="main">

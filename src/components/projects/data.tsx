@@ -1,10 +1,7 @@
 // IMAGES
 import rappiClone from '../../assets/Portfolio/rappiClone.jpg';
 import hms from '../../assets/Portfolio/hms.jpg';
-import Work2 from '../../assets/Portfolio/Work2.jpg';
-import Work3 from '../../assets/Portfolio/Work3.jpg';
-import Work4 from '../../assets/Portfolio/Work4.jpg';
-import Work5 from '../../assets/Portfolio/Work5.jpg';
+import travelAndTours from '../../assets/Portfolio/Travel-And-Tours.jpg'
 
 // ICONS
 import expressI from "../../assets/PortfolioIcons/expressJs.svg"
@@ -15,6 +12,7 @@ import socketioI from "../../assets/PortfolioIcons/socketIO.svg"
 import postgreSQLI from "../../assets/PortfolioIcons/postgreSQL.svg"
 import sequelizeI from "../../assets/PortfolioIcons/sequelize.svg"
 import typescriptI from '../../assets/PortfolioIcons/typescript.svg'
+import sassI from '../../assets/PortfolioIcons/sass.svg'
 
 
 export const projectsData = [
@@ -162,16 +160,72 @@ export const projectsData = [
             icon: typescriptI
         },],
     },
-    // {
-    //     id: 3,
-    //     image: Work3,
-    //     title: "PENDING",
-    //     category: "WebDev",
-    //     descriptions: [],
-    //     isDemo: false,
-    //     linkDemo: "#",
-    //     techIcons: [],
-    // },
+    {
+        id: 3,
+        image: travelAndTours,
+        title: "Booking App",
+        category: "WebDev",
+        descriptions: [
+            {
+                id: 1,
+                description: "A role-based app developed using mobile-first design"
+            },
+            {
+                id: 2,
+                description: "Use React, React-icons and Sass for building a responsive SPA with reusable and scalable components that consumed my own API."
+            },
+            {
+                id: 3,
+                description: "Use Node js and Express js for building a restful API."
+            },
+            {
+                id: 4,
+                description: "Use PostgreSQL as database and sequelize as ORM to store and manage the whole information."
+            },
+            {
+                id: 5,
+                description: "Create authentication and authorization middlewares using Firebase Auth through tokens"
+            },
+            {
+                id: 6,
+                description: "Create routing using react-router-dom and authentication using the context hook and tokens"
+            },
+            {
+                id: 7,
+                description: "Implement clean architecture and best practices for clean, reusable and scalable coding"
+            },
+        ],
+        isDemo: false,
+        linkDemo: "#",
+        techIcons: [{
+            id: 1,
+            icon: reactI
+        },
+        {
+            id: 2,
+            icon: nodeI
+        },
+        {
+            id: 3,
+            icon: expressI
+        },
+        {
+            id: 4,
+            icon: sassI
+        },
+        {
+            id: 5,
+            icon: postgreSQLI
+        },
+        {
+            id: 6,
+            icon: sequelizeI
+        },
+        {
+            id: 7,
+            icon: typescriptI
+        },],
+    },
     // {
     //     id: 4,
     //     image: Work4,

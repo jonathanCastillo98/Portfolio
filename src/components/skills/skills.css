@@ -35,6 +35,23 @@
     column-gap: 0.5rem;
 }
 
+.skills__box-robotics {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills__group-robotics {
+    display: grid;
+    align-items: flex-start;
+    row-gap: 1rem;
+}
+
+.skills__data-robotics {
+    display: flex;
+    column-gap: 0.5rem;
+}
+
 .skills .bx-badge-check {
     font-size: 1rem;
     color: var(--title-color);

@@ -8,6 +8,7 @@ import Frontend from './frontend'
 import Backend from './backend'
 import Aditional from './aditional'
 import Softskills from './softskills';
+import Robotics from './robotics';
 
 
 const Skills = () => {
@@ -39,7 +40,9 @@ const Skills = () => {
                 <TabPanel value='Soft'>
                     <Softskills />
                 </TabPanel>
-                <TabPanel value='Robotics'>Panel 3</TabPanel>
+                <TabPanel value='Robotics'>
+                    <Robotics />
+                </TabPanel>
             </TabContext>
         </section>
     )

@@ -21,20 +21,20 @@ export const Data = [
         description:
             "Jonathan is a clear example of perseverance, with quality deliveries and always responsible with his commitments and delivery times."
     },
-    {
-        id: 3,
-        image: Image3,
-        title: "Sara Cill",
-        position: "",
-        description:
-            "A really good job, all aspects of the project were followed step by step and with good results"
-    },
-    {
-        id: 4,
-        image: Image3,
-        title: "Jonathan",
-        position: "",
-        description:
-            "A really good job, all aspects of the project were followed step by step and with good results"
-    }
+    // {
+    //     id: 3,
+    //     image: Image3,
+    //     title: "Sara Cill",
+    //     position: "",
+    //     description:
+    //         "A really good job, all aspects of the project were followed step by step and with good results"
+    // },
+    // {
+    //     id: 4,
+    //     image: Image3,
+    //     title: "Jonathan",
+    //     position: "",
+    //     description:
+    //         "A really good job, all aspects of the project were followed step by step and with good results"
+    // }
 ]
