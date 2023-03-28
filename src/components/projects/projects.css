@@ -47,9 +47,61 @@
 
 }
 
+.industrial__box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+    gap: 1rem;
+
+}
+
+.uchi__description {
+    grid-column: 1;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+
+    padding: 1rem;
+    text-align: justify;
+
+}
+
+.uchi__tasks {
+    grid-column: 2/-1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 1rem;
+    font-size: var(--small-font-size);
+    row-gap: 1rem;
+}
+
+.list {
+    width: 100%;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+
+    padding: 1rem;
+}
+
+.tasks__title {
+    font-size: var(--normal-font-size);
+}
+
 /* Breakpoints */
 
 /* Large devices */
+@media screen and (max-width:1240px) {
+    .industrial__box {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem;
+        gap: 1rem;
+
+    }
+}
+
 @media screen and (max-width: 992px) {
     .work__container {
         gap: 1.25rem;
@@ -65,6 +117,23 @@
 
     .work__title {
         margin-bottom: 0.25rem;
+    }
+
+    .industrial__box {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+
+    }
+
+    .uchi__description,
+    .uchi__tasks {
+        width: 100%;
+        grid-column: 1;
+
+    }
+
+    .list {
+        border: none;
     }
 }
 
@@ -208,6 +277,13 @@
     .tech-icons-wrapper {
         margin-top: var(--mb-1);
     }
+
+    .industrial__box,
+    /* .uchi__description, */
+    /* .uchi__tasks, */
+    .list {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -228,6 +304,11 @@
 
     .tech-icons-container {
         padding: 0;
+    }
+
+    .uchi__description {
+        font-size: var(--small-font-size);
+
     }
 
 

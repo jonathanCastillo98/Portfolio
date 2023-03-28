@@ -16,7 +16,7 @@ const About = () => {
                     <Info />
 
                     <p className="about__description">
-                        B.Eng. in Computational Robotics with 1 year of experience developing web apps mostly with Javascript (React, NodeJS, and Express). I am passionate and competitive, always eager to learn new things from challenges, self-learning, or being part of a team. <br /> <br />
+                        B.Eng. in Computational Robotics with strong Javascript fundamentals and 1 year of experience developing web apps mostly with React, NodeJS, and Express.  I am passionate and competitive, always eager to learn something new to master or earn new skills and increment the quality of my work. I like constantly challenging myself and learning from teammates, professors, masters, and whomever I work with.
                     </p>
                 </div>
             </div>

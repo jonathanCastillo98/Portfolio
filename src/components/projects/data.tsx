@@ -19,7 +19,7 @@ export const projectsData = [
     {
         id: 1,
         image: rappiClone,
-        title: "RappiClone",
+        title: "Food Delivery App",
         category: "WebDev",
         descriptions: [
             {
