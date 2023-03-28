@@ -22,6 +22,13 @@
 }
 
 /* Large devices */
+@media screen and (max-width:1150px) {
+    .certifications__container {
+        grid-template-columns: max-content;
+        gap: 1rem;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .certifications__container {
         grid-template-columns: max-content;

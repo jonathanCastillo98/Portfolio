@@ -36,15 +36,17 @@
 }
 
 .skills__box-robotics {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
 }
 
 .skills__group-robotics {
-    display: grid;
-    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     row-gap: 1rem;
+    padding: 1rem;
 }
 
 .skills__data-robotics {
@@ -99,6 +101,39 @@
     margin-bottom: var(--mb-0-5);
 }
 
+.skills__data-robotics {
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    border-right: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+}
+
+.roboticsSkills {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    overflow: hidden;
+}
+
+.roboticSkill {
+    font-size: var(--small-font-size);
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: .5rem;
+}
+
+.roboticSkill img {
+    width: 25px;
+}
+
 
 /* Breakpoints */
 
@@ -125,6 +160,10 @@
         margin-bottom: 0.25rem;
     }
 
+    .skills__box-robotics {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -146,6 +185,10 @@
     .softskills__container {
         grid-template-columns: max-content;
     }
+
+    .skills__box-robotics {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Small devices */
@@ -156,5 +199,9 @@
 
     .skills__name {
         font-size: var(--small-font-size);
+    }
+
+    .skills__box-robotics {
+        grid-template-columns: 1fr;
     }
 }

@@ -48,7 +48,7 @@ export const projectsData = [
             },
             {
                 id: 7,
-                description: "Implement best practices for clean coding"
+                description: "Implement best practices for clean coding."
             },
 
 
@@ -114,15 +114,15 @@ export const projectsData = [
             },
             {
                 id: 5,
-                description: "Create authentication and authorization middlewares using Firebase Auth through tokens"
+                description: "Create authentication and authorization middlewares using Firebase Auth through tokens."
             },
             {
                 id: 6,
-                description: "Create routing using react-router-dom and authentication using the context hook and tokens"
+                description: "Create routing using react-router-dom and authentication using the context hook and tokens."
             },
             {
                 id: 7,
-                description: "Implement clean architecture and best practices for clean, reusable and scalable coding"
+                description: "Implement clean architecture and best practices for clean, reusable and scalable coding."
             },
         ],
         isDemo: false,
@@ -168,7 +168,7 @@ export const projectsData = [
         descriptions: [
             {
                 id: 1,
-                description: "A role-based app developed using mobile-first design"
+                description: "A role-based app developed using mobile-first design."
             },
             {
                 id: 2,
@@ -184,15 +184,15 @@ export const projectsData = [
             },
             {
                 id: 5,
-                description: "Create authentication and authorization middlewares using Firebase Auth through tokens"
+                description: "Create authentication and authorization middlewares using Firebase Auth through tokens."
             },
             {
                 id: 6,
-                description: "Create routing using react-router-dom and authentication using the context hook and tokens"
+                description: "Create routing using react-router-dom and authentication using the context hook and tokens."
             },
             {
                 id: 7,
-                description: "Implement clean architecture and best practices for clean, reusable and scalable coding"
+                description: "Implement clean architecture and best practices for clean, reusable and scalable coding."
             },
         ],
         isDemo: false,
