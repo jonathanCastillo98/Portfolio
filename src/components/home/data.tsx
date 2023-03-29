@@ -2,7 +2,7 @@ import React from 'react'
 
 import Scrolldown from './scrolldown'
 
-import CV from '../../assets/cv.pdf'
+import CV from '../../assets/Resume.pdf'
 
 const Data = () => {
     return (
